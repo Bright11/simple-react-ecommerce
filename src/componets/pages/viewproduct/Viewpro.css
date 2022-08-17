@@ -1,0 +1,26 @@
+.viewpro{
+    flex: 4;
+}
+.product__table thead tr{
+  background-color: darkblue;
+  color: white;
+}
+.product__table tbody{
+    border: none !important;
+}
+.prodct__tableimg{
+    height: 100px;
+}
+.delete__pro{
+    color: red;
+    font-size: 20px;
+}
+.delete__pro:hover{
+    cursor: pointer;
+}
+.actiontable{
+   display: flex;
+}
+.updatebtn{
+    margin-right: 5px;
+}

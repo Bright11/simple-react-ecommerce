@@ -1,0 +1,26 @@
+.details{
+  flex: 4;
+}
+.product-details-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+.pro-detaols-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+.pro-detaols-name a{
+    text-decoration: none;
+    color: gray;
+}
+.pro-detaols-name h1,p a{
+    margin: 8px 0px;
+}
+.pro-detaols-img img{
+    width: 300px;
+}

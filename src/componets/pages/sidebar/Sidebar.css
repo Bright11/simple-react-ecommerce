@@ -1,0 +1,25 @@
+.sidebar{
+    flex: 1;
+    margin-right: 20px;
+    min-height: 550px;
+  }
+  .sidebar__container{
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar__item{
+    display: flex;
+    list-style: none;
+    color: black;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+  .sidebar__item:hover{
+    background-color: darkblue;
+    color: white;
+  }
+  .sidebar__links{
+    text-decoration: none;
+  }

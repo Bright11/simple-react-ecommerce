@@ -1,0 +1,15 @@
+to use redux toolkit, we must install redux
+
+https://react-md.dev/packages/material-icons/demos
+
+npm install @reduxjs/toolkit react-redux axios
+after the installation,
+inside index.js, import  configureStore from @reduxjs/toolkit
+and also import Provider from react-redux.
+
+in our index.js we have imported most of files to work with 
+after this, we will create a folder called features inside src folder and inside this folder,
+we will create a file called cartSlice.js
+After creating and adding some code in our cartSlice.js,
+ npm i react-toastify
+we will now import cartSlice from './features/cartSlice' in our index.js
